@@ -1,6 +1,6 @@
 /* Стилизация кнопки */
 .button {
-    width: 182px;
+    display: inline-block;
     height: 48px;
     border-radius: 8px;
     border: none;
@@ -11,11 +11,12 @@
     /* identical to box height */
     text-align: center;
     transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+    box-sizing: border-box;
 }
 
 .button:disabled {
     opacity: 0.5;
-    cursor: not-allowed;
+    pointer-events: none;
 }
 
 .button:enabled {
@@ -43,7 +44,6 @@
 .button.-alternate {
     background: var(--white);
     color: var(--grey-4);
-    box-sizing: border-box;
     border: 1px solid var(--grey-3);
 }
 
