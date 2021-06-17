@@ -1,6 +1,4 @@
 /* Стилизация аккордеона */
-@import '../../assets/fonts/fonts.css';
-
 .accordion__summary::-webkit-details-marker {
     display: none;
 }
