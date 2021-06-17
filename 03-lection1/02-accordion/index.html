@@ -1,18 +1,46 @@
 <!DOCTYPE html>
-<!-- Страница с аккордеоном -->
+<!-- by Andrei Prakhov -->
 <html lang="ru">
-    <head>
-        <link rel="stylesheet" href="../../assets/css/main.css">
-        <link rel="stylesheet" href="./accordion.css">
-    </head>
-    <body>
-        <details>
-            <summary>
-                Accordion item
-            </summary>
-            <p>
-                Hidden content
-            </p>
-        </details>
-    </body>
+<head>
+    <title>Accordion demo</title>
+    <link rel="stylesheet" href="../../assets/css/normalize.css">
+    <link rel="stylesheet" href="../../assets/css/main.css">
+    <link rel="stylesheet" href="./accordion.css">
+    <link rel="stylesheet" href="./demo.css">
+</head>
+<body>
+<details class="accordion">
+    <summary class="accordion__summary">
+        Accordion item 1
+        <svg class="marker" width="18" height="10" viewBox="0 0 18 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1 1L9 9L17 1" stroke="#495057" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+    </summary>
+    <div class="accordion__content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+        incididunt ut labore et dolore magna aliqua.
+    </div>
+</details>
+<details class="accordion">
+    <summary class="accordion__summary">
+        Accordion item 2
+        <svg class="marker" width="18" height="10" viewBox="0 0 18 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1 1L9 9L17 1" stroke="#495057" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+    </summary>
+    <div class="accordion__content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+        incididunt ut labore et dolore magna aliqua.
+    </div>
+</details>
+<details class="accordion">
+    <summary class="accordion__summary">
+        Accordion item 3
+        <svg class="marker" width="18" height="10" viewBox="0 0 18 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1 1L9 9L17 1" stroke="#495057" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+    </summary>
+    <div class="accordion__content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+        incididunt ut labore et dolore magna aliqua.
+    </div>
+</details>
+</body>
 </html>
